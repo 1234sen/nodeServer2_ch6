@@ -17,7 +17,7 @@ import Hello from "./Hello.js";
 //ch6
 import mongoose from "mongoose";
 // const CONNECTION_STRING = "mongodb://root:C743B433407BE68EE62C46EDE8FB5A0C@139.196.182.230:27017/kambaz?authSource=admin"|| process.env.MONGO_CONNECTION_STRING 
-const CONNECTION_STRING = "mongodb+srv://atlas-sample-dataset-load-67f0ef4868787c0738994432:mSbyOXpKdN1Zgjb3@cluster0.xejvupe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const CONNECTION_STRING = "mongodb+srv://8bbfqs8dab:mSbyOXpKdN1Zgjb3@cluster0.xejvupe.mongodb.net/kambaz?authSource=admin"
 // mongodb+srv://atlas-sample-dataset-load-67f0ef4868787c0738994432:mSbyOXpKdN1Zgjb3@cluster0.xejvupe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 mongoose.connect(CONNECTION_STRING);
 
