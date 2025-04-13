@@ -87,6 +87,7 @@ app.use(session(sessionOptions));
 
 const allowedOrigins = [
   "https://eatwhite-a5test.netlify.app",
+  "https://eatwhite-a6.netlify.app",
   "http://localhost:5173",
   "http://localhost:4173",
   
